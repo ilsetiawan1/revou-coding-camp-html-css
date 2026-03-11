@@ -1,113 +1,51 @@
-# RevoU Coding Camp - HTML & CSS
+# 📋 RevoU Coding Camp | Day 2 — March 10, 2026
+## HTML Lists, Tables, Forms & Tailwind CSS
 
-## 📅 Day 2: HTML Lists, Tables, Forms & Tailwind CSS
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Day--2-yellow?style=for-the-badge&logo=revo-u" alt="Status Day 2">
+  <img src="https://img.shields.io/badge/Tech-Tailwind_CSS-blue?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Focus-Semantic_HTML-orange?style=for-the-badge&logo=html5" alt="HTML5">
+</p>
 
-Hari kedua belajar HTML dengan fokus pada elemen-elemen penting untuk membuat website yang interaktif dan terstruktur.
+## 📅 Day 2: Advanced Layout, Lists & Tailwind CSS
+Eksplorasi mendalam pada struktur HTML untuk membangun pondasi website yang interaktif, terstruktur, dan *mobile-friendly* menggunakan framework utility-first.
 
 ---
 
 ## 🎯 Materi yang Dipelajari
 
-### 1. HTML Lists
-- **Unordered List (`<ul>`)** - Daftar dengan bullet points
-- **Ordered List (`<ol>`)** - Daftar bernomor
-- **Nested Lists** - List di dalam list untuk struktur hierarki
+| Topik | Fokus Utama |
+| :--- | :--- |
+| **HTML Lists** | Implementasi `<ul>`, `<ol>`, dan hierarki *Nested Lists*. |
+| **HTML Tables** | Struktur data tabular yang bersih dengan `<thead>` dan `<tbody>`. |
+| **HTML Forms** | Validasi input, berbagai tipe data user, dan *best practices*. |
+| **Tailwind CSS** | Integrasi CDN, responsive design, dan manipulasi *utility classes*. |
 
-### 2. HTML Tables
-- Struktur tabel dengan `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`
-- Styling tabel untuk tampilan yang lebih menarik
+---
 
-### 3. HTML Forms
-- Input fields untuk mengumpulkan data user
-- Form elements: text, email, password, textarea, select, radio, checkbox
-- Form validation dan best practices
+## 🎨 Preview Tampilan
+Berikut adalah hasil implementasi desain modern menggunakan **Yellow/Amber Theme** yang sudah dioptimalkan untuk berbagai perangkat:
 
-### 4. HTML Images
-- Menampilkan gambar dengan tag `<img>`
-- Atribut `src`, `alt`, dan responsive images
+### 📱 Mobile View
+<img src="images/list-mobile.png" width="300" alt="Mobile View Screenshot" style="border-radius: 10px; shadow: lg;">
 
-### 5. Tailwind CSS
-- Integrasi Tailwind CSS via CDN
-- Utility-first CSS framework
-- Styling modern dengan warna base kuning/amber
-- Responsive design dan hover effects
+### 💻 Desktop View
+![Desktop View Screenshot](images/list-desktop.png)
 
 ---
 
 ## 📁 File Structure
+Struktur folder diatur secara modular agar mudah dipahami:
 
-```
+```text
 .
-├── index.html          # Halaman utama
-├── list.html           # Contoh HTML Lists dengan Tailwind CSS
-├── table.html          # Contoh HTML Tables
-├── form.html           # Contoh HTML Forms
-├── image.html          # Contoh HTML Images
-├── images/             # Folder untuk menyimpan gambar
-│   └── revou-logo.jpg
-└── README.md           # Dokumentasi project
-```
-
----
-
-## 🎨 Highlights
-
-### Modern List Design dengan Tailwind CSS
-File `list.html` menampilkan:
-- ✨ Unordered list untuk kegiatan harian
-- 🎯 Ordered list untuk langkah-langkah pembelajaran
-- 📚 Nested list untuk materi pembelajaran
-- Styling modern dengan warna base kuning/amber
-- Hover effects dan transitions yang smooth
-- Card-based layout dengan shadows dan rounded corners
-
-### Screenshot
-> **Note**: Tambahkan screenshot tampilan dengan cara:
-> 1. Buka `list.html` di browser
-> 2. Screenshot tampilan
-> 3. Simpan di folder `images/` dengan nama `list-screenshot.png`
-> 4. Uncomment baris di bawah ini:
-
-<!-- ![List Page Screenshot](images/list-screenshot.png) -->
-
----
-
-## 🚀 Cara Menjalankan
-
-1. Clone repository ini:
-```bash
-git clone https://github.com/username/revou-coding-camp-html-css.git
-```
-
-2. Buka file HTML di browser:
-   - Double click file `.html` yang ingin dilihat
-   - Atau gunakan Live Server di VS Code
-
-3. Untuk melihat hasil styling Tailwind CSS, pastikan koneksi internet aktif (karena menggunakan CDN)
-
----
-
-## 📚 Resources
-
-- [MDN Web Docs - HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [HTML Lists Tutorial](https://www.w3schools.com/html/html_lists.asp)
-- [HTML Tables Tutorial](https://www.w3schools.com/html/html_tables.asp)
-- [HTML Forms Tutorial](https://www.w3schools.com/html/html_forms.asp)
-
----
-
-## 💡 Key Learnings
-
-1. **Semantic HTML** - Menggunakan tag HTML yang sesuai dengan fungsinya
-2. **List Styling** - Memanfaatkan native HTML list markers dengan Tailwind CSS
-3. **Responsive Design** - Membuat tampilan yang adaptif di berbagai ukuran layar
-4. **Modern CSS** - Utility-first approach dengan Tailwind CSS
-5. **Clean Code** - Struktur HTML yang rapi dan mudah dibaca
-
----
-
-
-## 📝 License
-
-This project is for educational purposes as part of RevoU Coding Camp.
+├── index.html        
+├── list.html           
+├── table.html         
+├── form.html        
+├── image.html         
+├── images/           
+│   ├── list-desktop.png
+│   └── list-mobile.png
+│   └── revou-logo.png
+└── README.md    
